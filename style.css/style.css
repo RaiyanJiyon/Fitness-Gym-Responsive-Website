@@ -8,6 +8,21 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header elements start */
+header {
+    width: 100%;
+    height: auto;
+}
+
+/* navbar */
+
+
 /* footer elements start */
 footer {
     width: auto;
@@ -61,6 +76,7 @@ line-height: 120%;
 text-align: center;
 color: rgb(255, 255, 255);
 margin-top: 54px;
+margin-bottom: 32px
 }
 
 .footer__get--started1 p, .footer__get--started2 p {
@@ -69,6 +85,8 @@ margin-top: 54px;
     font-weight: 400;
     line-height: 120%;
     text-align: center;
+    margin-bottom: 16.3px;
+
 }
 
 .horizontal__row {
