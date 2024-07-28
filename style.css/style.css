@@ -838,6 +838,7 @@ th {
   letter-spacing: 0%;
   text-align: left;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .horizontal__row {
