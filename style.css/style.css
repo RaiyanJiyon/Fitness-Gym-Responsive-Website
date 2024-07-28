@@ -149,6 +149,7 @@ header {
   line-height: 22px;
   letter-spacing: 0px;
   text-align: center;
+  cursor: pointer;
 }
 
 .download__btn {
@@ -379,6 +380,7 @@ header {
   line-height: 22px;
   letter-spacing: 0px;
   text-align: center;
+  cursor: pointer;
 }
 
 .extra__mile--image {
@@ -394,6 +396,7 @@ header {
 }
 
 /* trainings__section */
+/*  
 .trainings__section {
   width: 1060px;
   height: 581px;
@@ -462,6 +465,7 @@ header {
   letter-spacing: 0px;
   text-align: left;
 }
+*/
 
 /* BMI Content */
 .BMI__content {
