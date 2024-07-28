@@ -164,12 +164,12 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 .banner__image {
   width: 349px;
   height: 580px;
-  position: relative;
 }
 
 .banner__image img {
@@ -189,8 +189,8 @@ header {
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: 0;
-  left: 55%;
+  top: 415px;
+  right: 380px;
 }
 
 .div350 h4 {
@@ -225,8 +225,8 @@ header {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 40%;
-  left: 75%;
+  top: 140px;
+  right: 30px;
 }
 
 .div500 h4 {
