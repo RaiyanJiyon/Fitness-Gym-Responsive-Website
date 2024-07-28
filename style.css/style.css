@@ -387,3 +387,202 @@ header {
   object-fit: cover;
   border-radius: 18px;
 }
+
+/* trainings__section */
+.trainings__section {
+  width: 1060px;
+  height: 581px;
+  border: 2px solid rebeccapurple;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+/* BMI Content */
+.BMI__content {
+  width: 671px;
+  height: 120px;
+  margin: 0 auto;
+  margin-top: 78px;
+  margin-bottom: 88px;
+}
+
+.BMI__content h2 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.BMI__content p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+/* BMI__calculator--section */
+.BMI__calculator--section {
+  max-width: 1440px;
+  height: 487px;
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.BMI__chart {
+  /* border: 2px solid rgb(77, 16, 135); */
+  width: 310px;
+  height: auto;
+  margin-top: 52px;
+}
+
+.BMI__chart h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 52px;
+}
+
+.BMI__chart .chart__table {
+}
+
+.BMI__chart .chart__table table {
+  width: 310px;
+  height: 216px;
+}
+
+.BMI__chart .chart__table table,
+td,
+th {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-collapse: collapse;
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 18px;
+  padding-bottom: 14px;
+}
+
+.BMI__chart .chart__table table th {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.BMI__chart .chart__table table td {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.BMI__calculator {
+  width: 577px;
+  height: 386px;
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.BMI__calculator h3 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1.75rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.BMI__calculator p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-bottom: 34px;
+}
+
+.calculate__form {
+  margin-left: -12px;
+}
+
+.calculate__form .form1,
+.form2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.calculate__form #weight,
+#height,
+#age,
+#sex {
+  width: 282.5px;
+  height: 48px;
+  padding: 12px 20px;
+  margin: 0px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.calculate__form #activity {
+  width: 560px;
+  height: 48px;
+  padding: 12px 20px;
+  margin: 0px 12px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+#calculate__btn {
+  width: 224px;
+  height: 54px;
+  padding: 16px 40px 16px 40px;
+  margin: 34px 0px;
+  border-radius: 42px;
+  border: none;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  cursor: pointer;
+}
