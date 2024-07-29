@@ -175,3 +175,70 @@ header {
     line-height: 18px;
   }
   
+
+  /* main */
+
+/* change__habit--section */
+.change__habit--section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.habit__text--container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.habit__text--container h2 {
+  width: 80%;
+  height: auto;
+  font-size: 2.2rem;
+  font-weight: 900;
+  line-height: 100%;
+  text-align: center;
+  margin-bottom: 14px;
+}
+
+.habit__text--container p {
+  width: 80%;
+  height: auto;
+  font-size: 0.87rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-bottom: 54px;
+}
+
+.habit__image--container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.image__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image__container h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 6px;
+}
+
+.image__container p {
+  font-size: 0.8rem;
+  line-height: 14px;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
