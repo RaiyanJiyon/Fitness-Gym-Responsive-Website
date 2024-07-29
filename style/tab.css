@@ -516,3 +516,77 @@ height: auto;
 .team__image__description {
   font-size: 0.8rem;
 }
+
+
+/* footer */
+.footer {
+  width: 100%;
+  height: auto;
+  margin-top: 66px;
+  /* padding-top: 1px; */
+  border: 1px solid transparent;
+}
+
+.footer-content {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 44px;
+  margin-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__fitness__content {
+  width: 100%;
+  height: auto;
+}
+
+.footer__fitness__title {
+  width: 90%;
+  height: auto;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.footer__fitness__description {
+  width: 90%;
+  height: auto;
+  font-size: 0.8rem;
+}
+
+.footer__get__started__content {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.get__started__title {
+  font-size: 1.5rem;
+  margin-bottom: 39px;
+}
+
+.get__started__description {
+  font-size: 0.9rem;
+  margin-bottom: 20px;
+}
+
+.horizontal__row {
+  width: 95%;
+  height: 0;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+}
+
+.footer__description {
+width: 80%;
+height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 36px;
+  margin-bottom: 57px;
+  font-size: 1.1rem;
+}
