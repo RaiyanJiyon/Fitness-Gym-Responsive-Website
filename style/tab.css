@@ -304,3 +304,149 @@ header {
   height: 100%;
   border-radius: 18px;
 }
+
+
+/* BMI Content */
+.BMI__content {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 22px;
+  margin-bottom: 32px;
+}
+
+.BMI__content h2 {
+  width: 100%;
+  height: auto;
+  font-size: 2rem;
+  line-height: 100%;
+  margin-bottom: 14px;
+}
+
+.BMI__content p {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+
+/* BMI__calculator--section */
+.BMI__calculator--section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.BMI__chart {
+  width: 80%;
+  height: auto;
+  margin-top: 52px;
+}
+
+.BMI__chart h3 {
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+  line-height: 100%;
+  text-align: left;
+  margin-bottom: 23px;
+}
+
+.BMI__chart .chart__table table {
+  width: 100%;
+  height: auto;
+}
+
+.BMI__chart .chart__table table,
+td,
+th {
+  text-align: center;
+  padding-top: 15px;
+  padding-left: 18px;
+  padding-bottom: 14px;
+}
+
+.BMI__chart .chart__table table th {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 1rem;
+}
+
+.BMI__chart .chart__table table td {
+  font-size: 0.8rem;
+}
+
+.BMI__calculator {
+  width: 80%;
+  height: auto;
+  margin-top: 42px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.BMI__calculator h3 {
+  width: 100%;
+  height: auto;
+  font-size: 1.5rem;
+}
+
+.BMI__calculator p {
+  width: 100%;
+  height: auto;
+  font-size: 1rem;
+  margin-bottom: 34px;
+}
+
+.calculate__form input::placeholder,
+.calculate__form select::placeholder {
+  width: 100%;
+  height: auto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.calculate__form .form1,
+.form2 {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.calculate__form #weight,
+#height,
+#age,
+#sex {
+  width: 100%;
+  height: auto;
+  padding: 12px 20px;
+  margin: 0px 12px;
+  font-size: 1rem;
+}
+
+.calculate__form #activity {
+  width: 97%;
+  height: auto;
+  padding: 12px 20px;
+  margin: 0px 12px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+#calculate__btn {
+  width: 80%;
+  height: auto;
+  padding: 0;
+  margin: 34px 0px;
+  border-radius: 42px;
+  font-size: 1.1rem;
+}
