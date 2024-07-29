@@ -12,7 +12,16 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" media="screen and (max-width: 576px)" href="style/mobile.css">
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 576px)"
+      href="style/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 576px) and (max-width: 992px)"
+      href="style/tab.css"
+    />
   </head>
   <body>
     <header>
@@ -25,7 +34,9 @@
           <li class="nav__item"><a href="#">Service</a></li>
           <li class="nav__item"><a href="#">Contact</a></li>
           <li class="nav__item"><a href="#">About</a></li>
-          <li id="display--hide" class="nav__item"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+          <li class="nav__item bar__icon">
+            <a href="#"><i class="fa-solid fa-bars"></i></a>
+          </li>
         </ul>
       </nav>
 
@@ -37,7 +48,7 @@
             transformation stories to help you get fit and stay fit!
           </p>
           <div class="banner__btn">
-            <button class="join__btn">Join Club Now!</button>
+            <button class="join__btn">Join Now!</button>
             <button class="download__btn">Download App</button>
           </div>
         </div>
@@ -57,7 +68,7 @@
         </div>
       </div>
     </header>
-    <main>
+    <main id="display--hide">
       <section class="change__habit--section">
         <div class="habit__text--container">
           <h2>Change Your Habits</h2>
@@ -277,7 +288,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
+    <footer id="display--hide" class="footer">
       <div class="footer-content">
         <div class="footer__fitness__content">
           <h2 class="footer__fitness__title">Fitness</h2>
