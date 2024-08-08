@@ -174,12 +174,26 @@ header {
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
   display: flex;
-  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
   position: absolute;
   top: 70%;
   right: 75%;
+}
+
+.red__circle {
+  width: 32.8px;
+  height: 32.8px;
+  background: rgb(230, 83, 60);
+  border-radius: 50%;
+}
+
+.red__circle .play__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  color: white;
 }
 
 .div350 h4 {
