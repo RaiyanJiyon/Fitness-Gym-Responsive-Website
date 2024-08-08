@@ -439,36 +439,34 @@ header {
 }
 */
 
-/* BMI Content */
+/* BMI content start */
 .BMI__content {
   width: 671px;
   height: 120px;
   margin: 0 auto;
   margin-top: 78px;
-  margin-bottom: 88px;
+  margin-bottom: 78px;
 }
 
 .BMI__content h2 {
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 3rem;
+  font-size: 2.46rem;
   font-weight: 900;
   line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
+  margin-bottom: 10px;
 }
 
 .BMI__content p {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
-  font-size: 0.87rem;
+  font-size: 0.82rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
-  text-align: left;
 }
 
-/* BMI__calculator--section */
+/* BMI content end */
+
+/* BMI__calculator--section start */
 .BMI__calculator--section {
   max-width: 1440px;
   height: 487px;
@@ -478,7 +476,6 @@ header {
 }
 
 .BMI__chart {
-  /* border: 2px solid rgb(77, 16, 135); */
   width: 310px;
   height: auto;
   margin-top: 52px;
@@ -487,12 +484,10 @@ header {
 .BMI__chart h3 {
   color: rgb(255, 255, 255);
   font-family: Inter;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-weight: 900;
   line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 52px;
+  margin-bottom: 42px;
 }
 
 .BMI__chart .chart__table {
@@ -516,21 +511,17 @@ th {
 
 .BMI__chart .chart__table table th {
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.87rem;
   font-weight: 500;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
 }
 
 .BMI__chart .chart__table table td {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
   font-size: 0.87rem;
   font-weight: 400;
   line-height: 120%;
-  letter-spacing: 0%;
   text-align: left;
 }
 
@@ -545,19 +536,15 @@ th {
 
 .BMI__calculator h3 {
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 1.75rem;
+  font-size: 1.4rem;
   font-weight: 900;
   line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
   margin-bottom: 14px;
 }
 
 .BMI__calculator p {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
-  font-size: 0.87rem;
+  font-size: 0.82rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
@@ -572,11 +559,9 @@ th {
 .calculate__form input::placeholder,
 .calculate__form select::placeholder {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.87rem;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0px;
   text-align: left;
 }
 
@@ -600,47 +585,43 @@ th {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.6);
   font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.87rem;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0px;
-  text-align: left;
 }
 
 .calculate__form #activity {
-  width: 560px;
+  width: 566px;
   height: 48px;
   padding: 12px 20px;
   margin: 0px 12px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.6);
-  font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.87rem;
   font-weight: 400;
   line-height: 22px;
-  letter-spacing: 0px;
-  text-align: left;
   border: none;
+  text-align: left;
 }
 
 #calculate__btn {
-  width: 224px;
-  height: 54px;
-  padding: 16px 40px 16px 40px;
+  width: 183.7px;
+  height: 50px;
+  padding: 16px 40px;
   margin: 34px 0px;
   border-radius: 42px;
   border: none;
   background: rgb(230, 83, 60);
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 18px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 22px;
-  letter-spacing: 0px;
   text-align: center;
   cursor: pointer;
 }
+
+/* BMI__calculator--section end */
 
 /* team section */
 .team-section {
