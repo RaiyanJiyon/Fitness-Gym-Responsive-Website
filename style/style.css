@@ -709,13 +709,12 @@ th {
 
 /* team section end */
 
-/* footer */
+/* footer start*/
 .footer {
   max-width: 1440px;
   height: 489px;
   background-color: #1a1a1a;
   margin-top: 88px;
-  /* padding-top: 1px; */
   border: 1px solid transparent;
 }
 
@@ -735,12 +734,9 @@ th {
 
 .footer__fitness__title {
   color: rgb(230, 83, 60);
-  font-family: Inter;
-  font-size: 4.37rem;
+  font-size: 3.58rem;
   font-weight: 800;
   line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
   margin-bottom: 20px;
 }
 
@@ -748,12 +744,10 @@ th {
   max-width: 443px;
   height: 72px;
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
-  font-size: 0.87rem;
+  font-size: 0.82rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
-  text-align: left;
 }
 
 .footer__get__started__content {
@@ -763,31 +757,21 @@ th {
   justify-content: space-between;
 }
 
-.get__started__one {
-}
-
-.get__started__two {
-}
-
 .get__started__title {
   color: rgb(255, 255, 255);
   font-family: Inter;
-  font-size: 2rem;
+  font-size: 1.64rem;
   font-weight: 700;
   line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 39px;
+  margin-bottom: 32px;
 }
 
 .get__started__description {
   color: rgba(255, 255, 255, 0.5);
   font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.87rem;
   font-weight: 400;
   line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
   margin-bottom: 20px;
   cursor: pointer;
 }
@@ -807,9 +791,11 @@ th {
   margin-top: 36px;
   color: rgba(255, 255, 255, 0.5);
   font-family: Inter;
-  font-size: 20px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: left;
 }
+
+/* footer end */
