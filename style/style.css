@@ -13,7 +13,6 @@
 }
 
 body {
-  width: 100%;
   max-width: 1440px;
   height: auto;
   margin: 0 auto;
@@ -26,10 +25,9 @@ header {
   width: 100%;
   max-width: 1440px;
   height: 715px;
-  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
   background-color: #232323;
   border: 2px solid;
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 /* nav */
@@ -40,22 +38,19 @@ header {
   margin-top: 37px;
 }
 
-.navtitle {
+.nav__title h3 {
   color: rgb(230, 83, 60);
-  font-family: Inter;
-  font-size: 2.25rem;
+  font-size: 1.85rem;
   font-weight: 800;
-  line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
+  line-height: 29.12px;
 }
 
 .nav__list {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 47px;
-  padding: 10px 7px;
+  gap: 38.5px;
+  padding: 5px 7px;
   margin: 0px 10px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
@@ -68,25 +63,19 @@ header {
 .nav__item a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 1.1rem;
+  font-size: 0.92rem;
   font-weight: 400;
-  line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
+  line-height: 29.12px;
 }
 
 .nav__item .home {
-  padding: 8px 20px 8px 20px;
+  padding: 8px 20px;
   border-radius: 46px;
   background: rgb(230, 83, 60);
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 1.1rem;
+  font-size: 0.92rem;
   font-weight: 600;
-  line-height: 22px;
-  letter-spacing: 0%;
-  text-align: left;
+  line-height: 29.12px;
 }
 
 .bar__icon {
@@ -96,26 +85,23 @@ header {
 /* banner */
 .banner {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .banner__text--container {
-  width: 520px;
-  height: 440px;
-  margin-top: 97px;
-  margin-right: 54px;
-  margin-left: 95px;
+  width: 426.4px;
+  height: 405px;
+  margin-top: 80px;
+  margin-right: 44px;
+  margin-left: 78px;
 }
 
 .banner__text--container h1 {
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 4.8rem;
+  font-size: 4rem;
   font-weight: 900;
-  line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 28px;
+  line-height: 110%;
+  margin-bottom: 23px;
 }
 
 .banner__text--container #shape {
@@ -124,35 +110,33 @@ header {
 
 .banner__text--container p {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.82rem;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   letter-spacing: 0.5px;
-  text-align: left;
   margin-bottom: 28px;
 }
 
 .banner__btn {
+  /* border: 2px solid rebeccapurple; */
   display: flex;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
   gap: 14px;
 }
 
 .join__btn,
 .download__btn {
-  width: 224px;
-  height: 54px;
-  padding: 16px 40px 16px 40px;
+  max-width: 184px;
+  height: 50px;
+  padding: 16px 40px;
+  padding: 13px 33px;
   border-radius: 42px;
   border: none;
   background: rgb(230, 83, 60);
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   font-weight: 600;
   line-height: 22px;
-  letter-spacing: 0px;
   text-align: center;
   cursor: pointer;
 }
@@ -164,8 +148,8 @@ header {
 }
 
 .banner__image--container {
-  width: 550px;
-  height: 580px;
+  max-width: 451px;
+  height: 533px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,8 +157,8 @@ header {
 }
 
 .banner__image {
-  width: 349px;
-  height: 580px;
+  width: 306px;
+  height: 534px;
 }
 
 .banner__image img {
@@ -183,8 +167,8 @@ header {
 }
 
 .div350 {
-  width: 206px;
-  height: 96px;
+  width: 169px;
+  height: 88px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
@@ -194,33 +178,29 @@ header {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 415px;
-  right: 380px;
+  top: 70%;
+  right: 75%;
 }
 
 .div350 h4 {
   color: rgb(250, 250, 249);
-  font-family: Inter;
-  font-size: 2rem;
+  font-size: 1.64rem;
   font-weight: 900;
   line-height: 24px;
   letter-spacing: 0.3px;
-  text-align: left;
 }
 
 .div350 p {
   color: rgba(239, 237, 232, 0.65);
-  font-family: Inter;
-  font-size: 1rem;
+  font-size: 0.82rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.5px;
-  text-align: left;
 }
 
 .div500 {
-  width: 193px;
-  height: 98px;
+  width: 158px;
+  height: 90px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
@@ -230,28 +210,26 @@ header {
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: 140px;
-  right: 30px;
+  /* top: 140px;
+  right: 30px; */
+  top: 20%;
+  left: 60%;
 }
 
 .div500 h4 {
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 40px;
+  font-size: 2rem;
   font-weight: 900;
   line-height: 40px;
   letter-spacing: 1px;
-  text-align: left;
 }
 
 .div500 p {
   color: rgba(255, 255, 255, 0.65);
-  font-family: Inter;
-  font-size: 0.8rem;
+  font-size: 0.67rem;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 1px;
-  text-align: left;
 }
 
 /* main */
