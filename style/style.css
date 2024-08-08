@@ -24,7 +24,7 @@ body {
 header {
   width: 100%;
   max-width: 1440px;
-  height: 715px;
+  height: auto;
   background-color: #232323;
   border: 2px solid;
   /* padding-left: 20px; */
@@ -234,12 +234,12 @@ header {
 
 /* main */
 
-/* change__habit--section */
+/* change__habit--section start */
 .change__habit--section {
-  width: 1044px;
-  height: 452px;
+  max-width: 1044px;
+  height: auto;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 82px;
 }
 
 .habit__text--container {
@@ -250,21 +250,17 @@ header {
 
 .habit__text--container h2 {
   color: rgb(255, 255, 255);
-  font-family: Inter;
-  font-size: 48px;
+  font-size: 2.46rem;
   font-weight: 900;
-  line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-bottom: 14px;
+  line-height: 29.12px;
+  margin-bottom: 18px;
 }
 
 .habit__text--container p {
-  width: 671px;
-  height: 48px;
+  max-width: 550px;
+  height: 44px;
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
-  font-size: 14px;
+  font-size: 0.82rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
@@ -284,19 +280,15 @@ header {
 
 .image__container h4 {
   color: rgb(255, 255, 255);
-  font-family: Inter;
   font-size: 1.1rem;
   font-weight: 600;
-  line-height: 120%;
-  letter-spacing: 0%;
-  text-align: left;
-  margin-top: 30px;
+  line-height: 29.5px;
+  margin-top: 24.6px;
   margin-bottom: 6px;
 }
 
 .image__container p {
   color: rgba(255, 255, 255, 0.5);
-  font-family: Inter;
   font-size: 0.87rem;
   font-weight: 400;
   line-height: 18px;
@@ -307,6 +299,8 @@ header {
 .image img {
   border-radius: 50%;
 }
+
+/* change__habit--section end */
 
 /* extra mile section */
 .extra__mile--section {
