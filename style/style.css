@@ -698,6 +698,13 @@ th {
   cursor: pointer;
 }
 
+.calculate__form select option {
+  background: #393939; 
+  color: rgba(255, 255, 255, 0.6);
+  border: none;
+  outline: none;
+}
+
 /* BMI__calculator--section end */
 
 /* team section start */
