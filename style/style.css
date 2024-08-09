@@ -103,6 +103,8 @@ header {
 }
 
 .banner__text--container #shape {
+  font-size: 5rem;
+  font-weight: 500;
   font-family: "Dancing Script", cursive;
 }
 

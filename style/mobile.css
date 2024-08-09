@@ -153,13 +153,9 @@ header {
 .div500 {
   max-width: 145.91px;
   height: 74.09px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   position: absolute;
   top: 10%;
-  left: 60%;
+  left: 55%;
 }
 
 .div500 h4 {
