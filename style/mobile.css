@@ -403,7 +403,7 @@ header {
   width: 80%;
   height: auto;
   margin: 0 auto;
-  margin-top: 22px;
+  margin-top: 42px;
   margin-bottom: 32px;
 }
 
@@ -526,7 +526,6 @@ th {
 
 .calculate__form #activity {
   width: 93%;
-  height: auto;
   padding: 12px 20px;
   margin: 0px 12px;
   font-size: 0.8rem;

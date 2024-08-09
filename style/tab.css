@@ -349,6 +349,7 @@ header {
   display: grid;
   grid-template-columns: 0.3fr 0.4fr 0.3fr;
   position: relative;
+  margin-bottom: 38px;
 }
 
 .training__card-1,
@@ -370,6 +371,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  border: 1px solid transparent;
 }
 
 .training__div-1 p,
@@ -398,11 +400,12 @@ header {
 
 /* training section end */
 
-/* BMI Content */
+/* BMI Content start */
 .BMI__content {
-  width: 80%;
+  width: 100%;
   height: auto;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0 40px;
   margin-top: 22px;
   margin-bottom: 32px;
 }
@@ -424,6 +427,7 @@ header {
   letter-spacing: 0.3px;
   text-align: left;
 }
+/* BMI Content end */
 
 /* BMI__calculator--section */
 .BMI__calculator--section {
@@ -447,6 +451,10 @@ header {
   line-height: 100%;
   text-align: left;
   margin-bottom: 23px;
+}
+
+.BMI__chart {
+  margin-left: -70px;
 }
 
 .BMI__chart .chart__table table {
@@ -480,6 +488,7 @@ th {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  margin-left: -70px;
 }
 
 .BMI__calculator h3 {
@@ -526,7 +535,6 @@ th {
 
 .calculate__form #activity {
   width: 97%;
-  height: auto;
   padding: 12px 20px;
   margin: 0px 12px;
   font-size: 1rem;
