@@ -701,7 +701,7 @@ th {
 }
 
 .calculate__form select option {
-  background: #393939; 
+  background: #393939;
   color: rgba(255, 255, 255, 0.6);
   border: none;
   outline: none;
@@ -794,6 +794,125 @@ th {
 }
 
 /* team section end */
+
+/* passes section start */
+.passes-section {
+  width: 1060px;
+  height: auto;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin: 0 auto;
+  margin-top: 82px;
+  margin-bottom: 82px;
+}
+
+.passes__content {
+  max-width: 671px;
+  height: 120px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 28px;
+  border: 1px solid transparent;
+}
+
+.passes__content-title {
+  color: rgb(255, 255, 255);
+  font-size: 2.46rem;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 24px;
+}
+
+.passes__content-switch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.passes__switch-caption {
+  color: white;
+  font-weight: 500;
+}
+
+.switch__icon {
+  font-size: 2rem;
+  color: rgb(242, 201, 76);
+}
+
+.passes__details {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.passes__details-crossfit {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 25%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.crosscut__title {
+  color: rgb(255, 255, 255);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.crosscut__price {
+  color: rgb(255, 255, 255);
+  font-size: 2.46rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.sub__text {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.crosscut__description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.purchase__btn {
+  width: 143.7px;
+  height: 45px;
+  border-radius: 42px;
+  border: none;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.arrow__icon {
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+/* passes section end */
 
 /* footer start*/
 .footer {
