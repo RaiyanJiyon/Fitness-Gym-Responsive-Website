@@ -841,6 +841,8 @@ th {
 .switch__icon {
   font-size: 2rem;
   color: rgb(242, 201, 76);
+  cursor: pointer;
+  margin-top: 5px;
 }
 
 .passes__details {
