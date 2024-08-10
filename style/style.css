@@ -22,10 +22,10 @@ body {
 
 /* header */
 header {
-  max-width: 1180px;
+  max-width: 1440px;
   height: auto;
   background-color: #232323;
-  border: 2px solid;
+  border: 1px solid transparent;
 }
 
 /* nav */
