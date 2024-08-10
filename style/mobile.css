@@ -604,6 +604,129 @@ th {
   font-size: 0.8rem;
 }
 
+/* passes section start */
+
+.passes-section {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.passes__content {
+  max-width: 90%;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 28px;
+}
+
+.passes__content-title {
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 120%;
+  text-align: center;
+  margin-top: 44px;
+  margin-bottom: 24px;
+}
+
+.passes__content-switch {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.passes__switch-caption {
+  color: white;
+  font-weight: 500;
+}
+
+.switch__icon {
+  font-size: 2rem;
+  color: rgb(242, 201, 76);
+}
+
+.passes__details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.passes__details-crossfit {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  width: 90%;
+  margin-bottom: 40px;
+  padding: 10px;
+}
+
+.crosscut__title {
+  width: 90%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 120%;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.crosscut__price {
+  width: 90%;
+  height: auto;
+  color: rgb(255, 255, 255);
+  font-size: 2.4rem;
+  font-weight: 900;
+  line-height: 120%;
+  margin-left: 10px;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.sub__text {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.crosscut__description {
+  width: 90%;
+  height: auto;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.82rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-left: 20%;
+}
+
+.purchase__btn {
+  width: 60%;
+  height: 45px;
+  border-radius: 42px;
+  border: none;
+  background: rgb(230, 83, 60);
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 24px;
+  margin-left: 17%;
+  margin-bottom: 10px;
+}
+
+.arrow__icon {
+  display: none;
+}
+
+/* passes section end */
+
+/* main end */
+
 /* footer */
 .footer {
   width: 100%;
