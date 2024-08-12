@@ -699,7 +699,7 @@ th {
   line-height: 24px;
   letter-spacing: 0.3px;
   text-align: left;
-  margin-left: 20%;
+  margin: 0 auto;
 }
 
 .purchase__btn {
@@ -715,7 +715,7 @@ th {
   text-align: center;
   cursor: pointer;
   margin-top: 24px;
-  margin-left: 17%;
+  /* margin-left: 17%; */
   margin-bottom: 10px;
 }
 

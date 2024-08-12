@@ -616,11 +616,9 @@ th {
 .team__image__description {
   font-size: 0.8rem;
 }
-
-
+/* teams section end */
 
 /* passes section start */
-
 .passes-section {
   width: 90%;
   height: auto;
@@ -709,7 +707,7 @@ th {
 }
 
 .crosscut__description {
-  width: 50%;
+  width: 100%;
   height: auto;
   color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
@@ -719,7 +717,6 @@ th {
   text-align: left;
   margin: 0 auto;
   margin-bottom: 10px;
-  margin-right: 110px;
 }
 
 .purchase__btn {
@@ -735,7 +732,6 @@ th {
   text-align: center;
   cursor: pointer;
   margin-top: 24px;
-  margin-left: 35%;
   margin-bottom: 10px;
 }
 
