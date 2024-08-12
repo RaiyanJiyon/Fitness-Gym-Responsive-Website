@@ -372,7 +372,7 @@ header {
 .training__div-1 p,
 .training__div-2 p {
   color: rgb(255, 255, 255);
-  font-size: 14px;
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 17px;
   letter-spacing: 0px;
@@ -399,7 +399,7 @@ header {
   width: 80%;
   height: auto;
   margin: 0 auto;
-  margin-top: 42px;
+  margin-top: 55px;
   margin-bottom: 32px;
 }
 
