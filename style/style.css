@@ -246,7 +246,7 @@ header {
 
 /* change__habit--section start */
 .change__habit--section {
-  max-width: 1044px;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   margin-top: 82px;
@@ -280,6 +280,8 @@ header {
 
 .habit__image--container {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .image__container {
