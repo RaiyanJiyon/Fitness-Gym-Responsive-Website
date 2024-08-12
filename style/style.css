@@ -316,7 +316,7 @@ header {
 
 /* extra mile section start */
 .extra__mile--section {
-  width: 1060px;
+  width: 90%;
   height: 371px;
   border-radius: 18px;
   background: rgb(34, 34, 34);
@@ -382,6 +382,7 @@ header {
 /* training section start */
 .training-section {
   width: 1060px;
+  width: 90%;
   height: 371px;
   margin: 0 auto;
   margin-top: 82px;
