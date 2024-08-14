@@ -20,7 +20,7 @@ body {
   background-color: #000000;
 }
 
-/* header */
+/* header container start here */
 header {
   width: 100%;
   height: auto;
@@ -28,7 +28,7 @@ header {
   border: 1px solid transparent;
 }
 
-/* nav */
+/* navbar start */
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -79,8 +79,9 @@ header {
 .bar__icon {
   display: none;
 }
+/* navbar end */
 
-/* banner */
+/* banner start */
 .banner {
   display: flex;
   justify-content: space-around;
@@ -126,7 +127,6 @@ header {
 .download__btn {
   max-width: 184px;
   height: 50px;
-  padding: 16px 40px;
   padding: 13px 33px;
   border-radius: 42px;
   border: none;
@@ -241,8 +241,11 @@ header {
   line-height: 20px;
   letter-spacing: 1px;
 }
+/* banner end */
 
-/* main start */
+/* header container ends here */
+
+/* main container starts here */
 
 /* change__habit--section start */
 .change__habit--section {
@@ -311,7 +314,6 @@ header {
 .image img {
   border-radius: 50%;
 }
-
 /* change__habit--section end */
 
 /* extra mile section start */
@@ -381,9 +383,8 @@ header {
 
 /* training section start */
 .training-section {
-  width: 1060px;
   width: 90%;
-  height: 371px;
+  height: auto;
   margin: 0 auto;
   margin-top: 82px;
 }
@@ -525,14 +526,16 @@ header {
 
 /* BMI content start */
 .BMI__content {
-  width: 671px;
-  height: 120px;
+  width: 50%;
+  height: auto;
   margin: 0 auto;
-  margin-top: 290px;
+  margin-top: 82px;
   margin-bottom: 68px;
 }
 
 .BMI__content h2 {
+  width: 100%;
+  height: auto;
   color: rgb(255, 255, 255);
   font-size: 2.46rem;
   font-weight: 900;
@@ -541,20 +544,20 @@ header {
 }
 
 .BMI__content p {
+  width: 100%;
+  height: auto;
   color: rgba(255, 255, 255, 0.5);
   font-size: 0.82rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
 }
-
 /* BMI content end */
 
 /* BMI__calculator--section start */
 .BMI__calculator--section {
-  /* max-width: 1440px; */
   width: 100%;
-  height: 487px;
+  height: auto;
   background: rgb(34, 34, 34);
   display: flex;
   justify-content: space-evenly;
@@ -573,9 +576,6 @@ header {
   font-weight: 900;
   line-height: 120%;
   margin-bottom: 42px;
-}
-
-.BMI__chart .chart__table {
 }
 
 .BMI__chart .chart__table table {
@@ -614,6 +614,7 @@ th {
   width: 577px;
   height: 386px;
   margin-top: 52px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -711,7 +712,6 @@ th {
   border: none;
   outline: none;
 }
-
 /* BMI__calculator--section end */
 
 /* team section start */
@@ -810,6 +810,7 @@ th {
 
 .passes__content {
   max-width: 671px;
+  width: 40%;
   height: 120px;
   height: auto;
   margin: 0 auto;
@@ -922,10 +923,10 @@ th {
 
 /* passes section end */
 
-/* footer start*/
+/* footer container start*/
 .footer {
   width: 100%;
-  height: 489px;
+  /* height: 489px; */
   background-color: #1a1a1a;
   margin: 0 auto;
   margin-top: 88px;
@@ -933,8 +934,8 @@ th {
 }
 
 .footer-content {
-  width: 1059px;
-  height: 249px;
+  width: 90%;
+  height: auto;
   margin: 0 auto;
   margin-top: 66px;
   margin-bottom: 79px;
@@ -990,6 +991,7 @@ th {
 
 .horizontal__row {
   width: 1059.5px;
+  width: 90%;
   height: 0;
   border: 2px solid rgba(255, 255, 255, 0.1);
   margin: 0 auto;
@@ -1007,4 +1009,4 @@ th {
   line-height: 24px;
   letter-spacing: 0.3px;
 }
-/* footer end */
+/* footer container end */

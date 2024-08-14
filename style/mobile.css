@@ -1,6 +1,6 @@
 /* @media screen and (max-width: 576px)  */
 
-/* header */
+/* header container starts here*/
 header {
   width: 100%;
   height: auto;
@@ -8,7 +8,7 @@ header {
   overflow: hidden;
 }
 
-/* nav */
+/* navbar start */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -39,8 +39,9 @@ header {
   font-size: 1rem;
   line-height: 100%;
 }
+/* navbar end */
 
-/* banner */
+/* banner start */
 .banner {
   display: flex;
   flex-direction: column;
@@ -125,10 +126,6 @@ header {
 .div350 {
   max-width: 155.74px;
   height: 72.58px;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
   position: absolute;
   top: 45%;
   left: 0%;
@@ -169,10 +166,11 @@ header {
   font-weight: 400;
   line-height: 18px;
 }
+/* navbar end */
 
-/* main */
+/* main container starts here*/
 
-/* change__habit--section */
+/* change__habit--section start */
 .change__habit--section {
   width: 100%;
   height: auto;
@@ -236,8 +234,9 @@ header {
   letter-spacing: 0.3px;
   text-align: center;
 }
+/* change__habit--section end */
 
-/* extra mile section */
+/* extra mile section start */
 .extra__mile--section {
   width: 90%;
   height: auto;
@@ -295,6 +294,7 @@ header {
   width: 100%;
   height: 100%;
 }
+/* extra mile section end */
 
 /* training section start */
 .training-section {
@@ -391,10 +391,9 @@ header {
   top: 81%;
   left: 6%;
 }
-
 /* training section end */
 
-/* BMI Content */
+/* BMI content section starts */
 .BMI__content {
   width: 80%;
   height: auto;
@@ -420,8 +419,9 @@ header {
   letter-spacing: 0.3px;
   text-align: left;
 }
+/* BMI Content section ends */
 
-/* BMI__calculator--section */
+/* BMI__calculator--section start*/
 .BMI__calculator--section {
   width: 100%;
   height: auto;
@@ -537,8 +537,9 @@ th {
   border-radius: 42px;
   font-size: 1.1rem;
 }
+/* BMI__calculator--section end*/
 
-/* team section */
+/* team section start */
 .team-section {
   width: 100%;
   height: auto;
@@ -603,9 +604,9 @@ th {
 .team__image__description {
   font-size: 0.8rem;
 }
+/* team section end */
 
 /* passes section start */
-
 .passes-section {
   width: 90%;
   height: auto;
@@ -614,7 +615,7 @@ th {
 }
 
 .passes__content {
-  max-width: 90%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   margin-bottom: 28px;
@@ -715,24 +716,21 @@ th {
   text-align: center;
   cursor: pointer;
   margin-top: 24px;
-  /* margin-left: 17%; */
   margin-bottom: 10px;
 }
 
 .arrow__icon {
   display: none;
 }
-
 /* passes section end */
 
-/* main end */
+/* main container ends here*/
 
-/* footer */
+/* footer container starts here */
 .footer {
   width: 100%;
   height: auto;
   margin-top: 66px;
-  /* padding-top: 1px; */
   border: 1px solid transparent;
 }
 
@@ -785,7 +783,7 @@ th {
 }
 
 .horizontal__row {
-  width: 95%;
+  width: 80%;
   height: 0;
   border: 2px solid rgba(255, 255, 255, 0.1);
   margin: 0 auto;
@@ -800,3 +798,4 @@ th {
   margin-bottom: 57px;
   font-size: 1.1rem;
 }
+/* footer container ends here */
